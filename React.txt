@@ -1,0 +1,370 @@
+🟦 1. React Fundamentals
+
+What is React
+
+Virtual DOM
+
+Fiber architecture
+
+JSX
+
+Components (function + class)
+
+Props
+
+State
+
+Rendering logic
+
+Conditional rendering
+
+Lists & keys
+
+Reconciliation
+
+Pure components
+
+🟩 2. React Lifecycle (Class + Function Equivalent)
+Class Components
+
+Mounting (constructor, getDerivedStateFromProps, render, componentDidMount)
+
+Updating (shouldComponentUpdate, render, getSnapshotBeforeUpdate, componentDidUpdate)
+
+Unmounting (componentWillUnmount)
+
+Error boundaries (getDerivedStateFromError, componentDidCatch)
+
+Functional Equivalent
+
+useEffect lifecycle mapping
+
+useLayoutEffect mapping
+
+🟧 3. Event System (Fully Covered)
+
+Synthetic events
+
+Event bubbling
+
+Event capturing
+
+onClickCapture
+
+stopPropagation
+
+preventDefault
+
+Passing event handlers
+
+Event delegation
+
+🟨 4. Hooks (Every Single Hook)
+Core Hooks
+
+useState
+
+useEffect
+
+useRef
+
+useContext
+
+Performance Hooks
+
+useMemo
+
+useCallback
+
+Advanced Hooks
+
+useReducer
+
+useLayoutEffect
+
+useImperativeHandle
+
+useDebugValue
+
+useDeferredValue
+
+useTransition
+
+useId
+
+useSyncExternalStore
+
+Custom Hooks
+
+Reusable logic patterns
+
+Debounce / Throttle hook
+
+Fetch hook
+
+LocalStorage hook
+
+🟪 5. Component Patterns
+
+Controlled components
+
+Uncontrolled components
+
+Higher Order Components (HOC)
+
+Render props
+
+Compound components
+
+Provider pattern
+
+Smart vs dumb components
+
+Container + Presenter
+
+Controlled vs uncontrolled inputs
+
+Context-driven components
+
+🟥 6. Forms
+
+Basics of forms in React
+
+Controlled inputs
+
+useRef forms (uncontrolled)
+
+Form handling patterns
+
+Form validation (Yup, Zod)
+
+Libraries:
+
+React Hook Form
+
+Formik
+
+🟦 7. State Management
+Local State
+
+Basic useState
+
+Derived state
+
+Lifting state up
+
+Global State
+
+Context
+
+useReducer
+
+prop drilling solution
+
+External State Managers (Important)
+
+Redux Toolkit
+
+Zustand
+
+Recoil
+
+Jotai
+
+MobX
+
+🟩 8. Routing (React Router v6+)
+
+Basic Routing
+
+Nested Routes
+
+Dynamic Routes
+
+Search Params (useSearchParams)
+
+Loader + Action (RR Data API)
+
+Protected routes
+
+Redirects
+
+Layout routes
+
+🟧 9. Data Fetching
+
+Fetch API
+
+Axios
+
+AbortController
+
+Debouncing API calls
+
+Infinite Scroll
+
+Pagination
+
+Libraries
+
+React Query (MUST LEARN)
+
+SWR
+
+🟨 10. Performance Optimization
+
+React.memo
+
+useMemo / useCallback
+
+Splitting components
+
+Code splitting
+
+Lazy loading
+
+Suspense
+
+Profiler
+
+Virtualization (react-window, react-virtual)
+
+🟪 11. React Concurrent Features
+
+useTransition
+
+useDeferredValue
+
+Suspense boundaries
+
+React streaming
+
+Server Components (React 18)
+
+🟥 12. Error Handling
+
+try/catch in components
+
+Error boundaries
+
+Fallback UI
+
+Graceful API error handling
+
+🟦 13. Context API (In-depth)
+
+When to use
+
+Creating providers
+
+Multiple context providers
+
+Avoiding context re-renders
+
+Context selectors
+
+Context with useReducer
+
+🟩 14. Next.js (Modern React Must Learn)
+
+File-based routing
+
+SSR / SSG / ISR / CSR
+
+Server components
+
+Layouts
+
+API Routes
+
+Streaming
+
+Authentication (NextAuth)
+
+Uploads
+
+Image Optimization
+
+🟧 15. Styling in React
+
+CSS
+
+CSS Modules
+
+Styled Components
+
+Emotion
+
+Tailwind CSS
+
+Material UI
+
+Chakra UI
+
+🟨 16. Build Tools
+
+Vite
+
+Webpack
+
+Babel
+
+ESLint
+
+Prettier
+
+Environment variables
+
+Production build optimization
+
+🟥 17. Testing
+
+Jest
+
+React Testing Library
+
+Snapshot testing
+
+Mocking APIs
+
+E2E testing (Cypress / Playwright)
+
+🟦 18. Architecture
+
+Feature-based folder structure
+
+Scalable project structure
+
+Dependency injection
+
+Reusable component architecture
+
+Clean code rules
+
+Design patterns in React
+
+🟩 19. TypeScript + React
+
+Typing props
+
+Typing components
+
+Typing hooks
+
+Typing context
+
+Typing Redux stores
+
+🟧 20. React Internals (Actual Mastery)
+
+How Fiber works
+
+Update priority lanes
+
+How reconciliation works
+
+Render phase vs commit phase
+
+Why hooks cannot be inside conditions
+
+How React stores hook values
